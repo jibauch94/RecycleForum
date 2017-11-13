@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#cbecfa"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jibba_000.recycleforum.MyPageActivity">
+
+    <Button
+        android:id="@+id/seePosts"
+        android:background="#009688"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:scaleType="centerInside"
+        android:textAllCaps="false"
+        android:text="Mine Posts"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textSize="25dp"
+        android:layout_marginTop="13dp"
+        android:layout_alignParentTop="true"/>
+
+    <Button
+        android:id="@+id/createPost"
+        android:background="#009688"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:scaleType="centerInside"
+        android:textAllCaps="false"
+        android:text="Opret Opslag"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textSize="25dp"
+        android:layout_marginTop="13dp"
+
+        android:layout_below="@+id/seePosts"/>
+<!--
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/postView"
+        android:text="Mine opslag"
+        android:layout_below="@+id/createPost"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/post_listView"
+        android:layout_below="@id/postView">
+    </ListView>
+-->
+</RelativeLayout>

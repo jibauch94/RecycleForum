@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "474881370718",
+    "firebase_url": "https://recycleforum-90a0f.firebaseio.com",
+    "project_id": "recycleforum-90a0f",
+    "storage_bucket": "recycleforum-90a0f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474881370718:android:e22b3c96ac860396",
+        "android_client_info": {
+          "package_name": "com.example.jibba_000.recycleforum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "474881370718-pbdqdbkrh6oipo8k0ijrmc84e34631mg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jibba_000.recycleforum",
+            "certificate_hash": "01906902b0a54ffb11b647af35a08912b6a3298e"
+          }
+        },
+        {
+          "client_id": "474881370718-ftb42svfm95lp79j1u6u18rro9mpsgc5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAg2OCAzOCCLPLdhQ3Zqe65f33egEojdiM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "474881370718-ftb42svfm95lp79j1u6u18rro9mpsgc5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
