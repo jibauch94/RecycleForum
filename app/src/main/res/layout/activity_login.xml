@@ -20,7 +20,7 @@
             android:layout_marginTop="75dp"
             android:layout_marginLeft="25dp"
             android:layout_marginRight="25dp"
-            android:hint="Email Address"
+            android:hint="Email Adresse"
             android:inputType="textEmailAddress"
             android:singleLine="true"
             android:textColor="@android:color/black"
@@ -34,10 +34,9 @@
             android:layout_marginTop="15dp"
             android:layout_marginLeft="25dp"
             android:layout_marginRight="25dp"
-            android:hint="Password"
+            android:hint="Adgangskode"
             android:inputType="textPassword"
             android:singleLine="true"
-
             android:textColor="@android:color/black"
             android:textColorHighlight="@color/colorPrimary"
 
@@ -47,7 +46,7 @@
 
         <TextView
             android:id="@+id/forgotPassText"
-            android:text="Forgotten your password?\nClick here"
+            android:text="Glemt adgangskode?\nKlik her"
             android:textSize="15dip"
             android:textAlignment="center"
 
@@ -65,7 +64,7 @@
             android:layout_marginBottom="0dp"
             android:background="#009688"
             android:textStyle="bold"
-            android:text="Login"
+            android:text="Log ind"
             android:textSize="40dp"
             android:textColor="@android:color/white"
             android:layout_width="match_parent"

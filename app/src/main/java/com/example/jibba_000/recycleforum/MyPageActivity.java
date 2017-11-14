@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -18,7 +19,7 @@ public class MyPageActivity extends AppCompatActivity {
     ListView listView;
     Button createPostBtn;
     Button seePostBtn;
-
+    ImageButton imageButton;
     private int height, width;
     String str;
 
@@ -38,6 +39,8 @@ public class MyPageActivity extends AppCompatActivity {
 
         //textView = (TextView) findViewById(R.id.postView);
         //listView = (ListView) findViewById(R.id.post_listView);
+        textView = (TextView) findViewById(R.id.postView);
+        imageButton = (ImageButton) findViewById(R.id.iBtn);
         createPostBtn = (Button) findViewById(R.id.createPost);
         seePostBtn = (Button) findViewById(R.id.seePosts);
         seePostBtn.setOnClickListener(buttonClickListener);
@@ -66,7 +69,7 @@ public class MyPageActivity extends AppCompatActivity {
                 case R.id.createPost:
                     //Toast.makeText(MainActivity.this, str, Toast.LENGTH_SHORT).show();
                     //finish();
-                    Intent createIntent = new Intent(MyPageActivity.this, MyPageActivity.class);
+                    Intent createIntent = new Intent(MyPageActivity.this, CreatePostActivity.class);
                     startActivity(createIntent);
 
                     break;

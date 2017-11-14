@@ -14,7 +14,7 @@
         android:layout_height="40dp"
         android:scaleType="centerInside"
         android:textAllCaps="false"
-        android:text="Mine Posts"
+        android:text="Se tilgængelige opslag"
         android:textStyle="bold"
         android:textColor="@android:color/white"
         android:textSize="25dp"
@@ -35,25 +35,43 @@
         android:layout_marginTop="13dp"
 
         android:layout_below="@+id/seePosts"/>
-<!--
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/postView"
         android:text="Mine opslag"
-        android:layout_below="@+id/createPost"
         android:textSize="25sp"
         android:textStyle="bold"
         android:textAlignment="center"
-        android:textColor="@color/colorPrimaryDark"
+        android:textColor="@android:color/black"
         android:layout_gravity="center"
-        android:layout_marginTop="15dp"/>
+        android:layout_marginTop="41dp"
+        android:layout_below="@+id/createPost"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
-    <ListView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/post_listView"
-        android:layout_below="@id/postView">
-    </ListView>
--->
+    <ImageButton
+        android:id="@+id/iBtn"
+        android:src="@drawable/stol"
+        android:background="#cbecfa"
+        android:layout_width="250dp"
+        android:layout_height="160dp"
+        android:scaleType="centerInside"
+        android:textAllCaps="false"
+        android:text=""
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/postView"
+        android:layout_centerHorizontal="true" />
+    <!--
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/post_listView"
+            android:layout_below="@id/postView">
+        </ListView>
+    -->
 </RelativeLayout>

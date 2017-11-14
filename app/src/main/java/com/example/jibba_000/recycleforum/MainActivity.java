@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
                     if (fbUser != null)
                     {
                        // toastMessage("Successfully signed in with " + fbUser.getEmail());
-                        Toast.makeText(MainActivity.this, "You are logged in: " + fbUser.getEmail(), Toast.LENGTH_SHORT).show();
+                        Toast.makeText(MainActivity.this, "Du er logget ind: " + fbUser.getEmail(), Toast.LENGTH_SHORT).show();
                     }
                     else
                     {

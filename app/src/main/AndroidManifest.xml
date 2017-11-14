@@ -10,8 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:name=".MainActivity">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -24,7 +24,7 @@
             android:label="SÅ GO&apos; SOM NY" />
         <activity
             android:name=".PostedActivity"
-            android:label="Mine opslag" />
+            android:label="Opslag" />
         <activity
             android:name=".ShowSofabordActivity"
             android:label="HJÆLP MIT SOFABORD" />

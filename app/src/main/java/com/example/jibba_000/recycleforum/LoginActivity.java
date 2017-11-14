@@ -74,7 +74,7 @@ public class LoginActivity extends AppCompatActivity {
                     //startActivity(myMenuIntent);
                     break;
                 case R.id.forgotPassText:
-                    Toast.makeText(LoginActivity.this, "You have forgot your password...", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(LoginActivity.this, "Du har glemt din adgangskode", Toast.LENGTH_SHORT).show();
                     break;
 
             }
@@ -91,7 +91,7 @@ public class LoginActivity extends AppCompatActivity {
             return;
         }
         // If EditText not empty it comes to here
-        progressDialog.setMessage("Checking user information...");
+        progressDialog.setMessage("Checker bruger information...");
         progressDialog.show();
 
         firebaseAuth.signInWithEmailAndPassword(email, pass)
@@ -112,7 +112,7 @@ public class LoginActivity extends AppCompatActivity {
                         else
                         {
                             // Not successful
-                            Toast.makeText(LoginActivity.this, "User not found", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(LoginActivity.this, "Brugernavn eller password er fokert! - Prøv igen!", Toast.LENGTH_SHORT).show();
                         }
                     }
                 });

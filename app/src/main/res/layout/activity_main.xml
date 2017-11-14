@@ -7,19 +7,12 @@
     android:background="#cbecfa"
     tools:context="com.example.jibba_000.recycleforum.MainActivity">
 
-    <android.support.design.widget.AppBarLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:theme="@style/AppTheme.AppBarOverlay"
-        android:id="@+id/appBarLayout">
-
-    </android.support.design.widget.AppBarLayout>
-
-
 
     <Button
         android:id="@+id/regBtn"
         android:background="#009688"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -27,11 +20,13 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentStart="true"
-        android:text="Registrer" />
+        android:text="Opret Bruger" />
 
     <Button
         android:id="@+id/loginBtn"
         android:background="#009688"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/regBtn"
@@ -40,7 +35,7 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentStart="true"
         android:layout_marginBottom="19dp"
-        android:text="Login" />
+        android:text="Log ind" />
 
     <ImageView
         android:id="@+id/imageView2"
